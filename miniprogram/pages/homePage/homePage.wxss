@@ -1,1 +1,6 @@
 /* pages/homePage/homePage.wxss */
+
+.page-sectionoptions-tools{
+  display: flex;
+  flex-direction: row-reverse;
+}

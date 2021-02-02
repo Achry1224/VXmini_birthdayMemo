@@ -52,6 +52,13 @@
   },
   "debug": true,
 
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+
   "sitemapLocation": "sitemap.json",
   "style": "v2"
+
+  
 }

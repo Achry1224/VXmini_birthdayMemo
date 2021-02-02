@@ -1,2 +1,23 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-options">
+        <view class="page-section-options-class">
+          <button class="mini-btn" type="primary" size="mini">全部</button>
+          <button class="mini-btn" type="primary" size="mini">生日</button>
+          <button class="mini-btn" type="primary" size="mini">纪念日</button>
+          <button class="mini-btn" type="primary" size="mini">倒数日</button>
+        </view>
+        <view class="page-sectionoptions-tools">
+          <mp-icon type="field" icon="add" color="black" size="{{25}}"></mp-icon>
+        </view>
+      </view>
+      <view class="page-section-matter">
+
+      </view>
+    </view>
+  </view>
+</view>
+
 <!--pages/homePage/homePage.wxml-->
 <text>pages/homePage/homePage.wxml</text>
