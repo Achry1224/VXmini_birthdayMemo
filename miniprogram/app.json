@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/homePage/homePage",
+    "pages/myPage/myPage",
+    "pages/tools/tools",
+
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -12,17 +16,42 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room",
-
-    "pages/homePage/homePage"
+    "pages/im/room/room"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "生日备忘 Birthday Memo",
     "navigationBarTextStyle": "black"
   },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myPage/myPage",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "text": "工具"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "测试"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }
