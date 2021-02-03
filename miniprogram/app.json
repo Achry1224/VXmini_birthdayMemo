@@ -3,6 +3,7 @@
     "pages/homePage/homePage",
     "pages/myPage/myPage",
     "pages/tools/tools",
+    "pages/canlendar/canlendar",
 
     "pages/index/index",
     "pages/userConsole/userConsole",
@@ -57,8 +58,18 @@
     "weui": true
   },
 
+  "plugins": {
+    "canlendar": {
+      "version": "1.0.0",
+      "provider": "wx1c77c2ed7b1cc1cb"
+    }
+  },
+
+
   "sitemapLocation": "sitemap.json",
   "style": "v2"
+
+  
 
   
 }

@@ -1,4 +1,4 @@
-// pages/homePage/homePage.js
+// pages/canlendar/canlendar.js
 Page({
 
   /**
@@ -62,14 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  /**
-   * 跳转到日历页面
-   */
-  goCanlendar: function(){
-    wx.navigateTo({
-      url: '../canlendar/canlendar',
-    })
   }
 })

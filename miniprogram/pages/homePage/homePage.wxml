@@ -3,12 +3,14 @@
     <view class="page-section">
       <view class="page-section-options">
         <view class="page-section-options-class">
-          <button class="mini-btn" type="primary" size="mini">全部</button>
-          <button class="mini-btn" type="primary" size="mini">生日</button>
-          <button class="mini-btn" type="primary" size="mini">纪念日</button>
-          <button class="mini-btn" type="primary" size="mini">倒数日</button>
+          <button class="mini-btn" type="default" size="mini">全部</button>
+          <button class="mini-btn" type="default" size="mini">生日</button>
+          <button class="mini-btn" type="default" size="mini">纪念日</button>
+          <button class="mini-btn" type="default" size="mini">倒数日</button>
         </view>
         <view class="page-sectionoptions-tools">
+          <mp-icon type="outline" icon="search" color="black" size="{{25}}"></mp-icon>
+          <mp-icon type="outline" icon="time" color="black" size="{{25}}" bindtap="goCanlendar"></mp-icon>
           <mp-icon type="field" icon="add" color="black" size="{{25}}"></mp-icon>
         </view>
       </view>
@@ -19,5 +21,3 @@
   </view>
 </view>
 
-<!--pages/homePage/homePage.wxml-->
-<text>pages/homePage/homePage.wxml</text>

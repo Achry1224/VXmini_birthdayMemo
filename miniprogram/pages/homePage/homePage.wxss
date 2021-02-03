@@ -1,6 +1,17 @@
 /* pages/homePage/homePage.wxss */
 
-.page-sectionoptions-tools{
+.page-section-options{
   display: flex;
+}
+
+.page-section-options-class{
+  flex-direction: row;
+}
+
+.page-sectionoptions-tools{
   flex-direction: row-reverse;
+}
+
+.mini-btn{
+  margin-right: 10rpx;
 }
